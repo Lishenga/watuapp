@@ -1,0 +1,74 @@
+<!--
+  Generated template for the TransactionsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+    
+        <button ion-button icon-only menuToggle>
+    
+        <ion-icon name="menu"></ion-icon>
+    
+    </button>
+    
+        <ion-buttons end>
+    
+            <button ion-button icon-only>
+    
+                    <p class="heading">TRANSACTIONS</p>
+    
+                </button>
+    
+        </ion-buttons>
+    
+    </ion-navbar>
+    
+</ion-header>
+
+
+<ion-content class="fuller">
+
+    <div style=" padding-top:5px; padding-right:7px; padding-left:7px">
+
+        <ion-card class="card-spacer spacer" no-padding no-border no-shadow>
+
+            <ion-row *ngFor="let i of value">
+    
+                <ion-col col-8 no-padding>
+    
+                    <p class="names">Sent Money to {{i.to}}</p>
+                
+                </ion-col>
+    
+                <ion-col col-4 no-padding>
+                    
+                    <p class="nameless">{{i.amount}} {{currency}}</p>
+                        
+                </ion-col>
+    
+                <p class="name">{{i.created_at}}</p>
+    
+            </ion-row>
+    
+        </ion-card>
+
+        <ion-row  style="padding-bottom:2px; padding-top:0px;">
+
+            <ion-col col-12 no-padding>
+    
+                <ion-card class="card-spacers spacers " no-padding no-border no-shadow>
+        
+                    <p (click)="statement()" class="statement">Statement</p>
+        
+                </ion-card>
+            
+            </ion-col>
+    
+        </ion-row>
+
+    </div>
+
+</ion-content>

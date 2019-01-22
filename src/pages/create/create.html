@@ -1,0 +1,171 @@
+<!--
+  Generated template for the CreatePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+    
+        <button ion-button icon-only menuToggle>
+    
+        <ion-icon name="menu"></ion-icon>
+    
+    </button>
+    
+        <ion-buttons end>
+    
+            <button ion-button icon-only>
+    
+                    <p class="heading">CREATE ACCOUNT</p>
+    
+                </button>
+    
+        </ion-buttons>
+    
+    </ion-navbar>
+    
+</ion-header>
+
+<ion-content padding class="fuller">
+
+  <div class="ta">
+
+      <form (ngSubmit)="validateEmail()">
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item id="rounded">
+
+                          <ion-input #input type="text" placeholder="First Name" [(ngModel)]="creator.fname" name="fname">
+
+                          </ion-input>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item id="rounded">
+
+                          <ion-input #input type="text" placeholder="Last Name" [(ngModel)]="creator.lname" name="lname">
+
+                          </ion-input>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item id="rounded">
+
+                          <ion-input #input type="email" placeholder="Email Address" [(ngModel)]="creator.email" name="email">
+
+                          </ion-input>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item id="rounded">
+
+                          <ion-select [(ngModel)]="creator.country" name="user" placeholder="Country">
+
+                              <ion-option value="KE">Kenya </ion-option>
+
+                              <ion-option value="CA">Canada </ion-option>
+
+                              <ion-option value="US">USA </ion-option>
+
+                              <ion-option value="UK">United Kingdom </ion-option>
+
+                          </ion-select>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item id="rounded">
+
+                          <ion-input #input type="number" placeholder="Phone Number" [(ngModel)]="creator.msisdn" name="msisdn">
+
+                          </ion-input>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item id="rounded">
+
+                          <ion-input #input type="password" placeholder="Password" [(ngModel)]="creator.password" name="password">
+
+                          </ion-input>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <button ion-button color="secondary" full round type="submit" class="btn">Create</button>
+
+      </form>
+
+  </div>
+
+</ion-content>

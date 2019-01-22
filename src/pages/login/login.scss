@@ -1,0 +1,84 @@
+page-login {
+
+    .btn {
+        width: 50%;
+        margin-left: 80px;
+        margin-top: 50px;
+        background-color: #1de9b6;
+        color: white;
+    }
+    
+    .btn:click {
+        width: 50%;
+        margin-left: 80px;
+        margin-top: 50px;
+        background-color: #1de9b6;
+        color: white;
+    }
+
+    .ts {
+        margin-top: -60px;
+    }
+
+    .imaging {
+        margin-left: 10px;
+        margin-top: 80px;
+        width: 500px;
+        position: initial;
+    }
+
+    form{
+        margin-top: -80px;
+    }
+
+    #rounded {
+        width: 100%;
+        height: 50px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        border-color: darkgrey;
+    }
+}
+
+.fuller{
+    background: rgb(219, 220, 221);
+}
+
+.center {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.pages {
+    background: linear-gradient(#dde8e1, #d7f2f1);
+}
+
+.logining {
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(140, 174, 255);
+}
+
+.forgot {
+    margin-left: 50px;
+    margin-top: 700px;
+    color: rgb(24, 25, 25);
+}
+
+.titles {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Sans-serif;
+    margin-bottom: 20px;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-family: Sans-serif;
+}
+

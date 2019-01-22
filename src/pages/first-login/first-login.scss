@@ -1,0 +1,45 @@
+page-first-login {
+    .colorss {
+        color:#bbdefb;
+        margin-top: 25px;
+        font-size: 35px;
+        margin-left: 10px;
+    }
+
+    .btn {
+        width: 50%;
+        margin-left: 80px;
+        margin-top: 50px;
+        background-color: #1de9b6;
+        color: white;
+    }
+    
+    .btn:click {
+        width: 50%;
+        margin-left: 80px;
+        margin-top: 50px;
+        background-color: #1de9b6;
+        color: white;
+    }
+
+    .ts {
+        margin-top: 60px;
+    }
+
+    .imaging {
+        margin-left: 40px;
+        width: 500px;
+        position: initial;
+    }
+
+    #rounded {
+        width: 100%;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        border-color: darkgrey;
+    }
+}

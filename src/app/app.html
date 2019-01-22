@@ -1,0 +1,98 @@
+<ion-menu id="myMenu" [content]="content">
+     
+    <ion-header no-shadow no-border>
+
+        <ion-toolbar *ngIf="myphoto == null" color="color3">
+
+                <ion-grid>
+    
+                    <ion-row>
+    
+                        <ion-col col-6>
+    
+                            <img src="assets/imgs/person.png" alt="your image" class="ions" (click)="profile()">
+    
+                        </ion-col>
+    
+                        <ion-col col-6 class="name">
+    
+                            {{fname}} {{lname}}
+    
+                        </ion-col>
+    
+                    </ion-row>
+    
+                </ion-grid>
+    
+            </ion-toolbar>
+    
+            <ion-toolbar *ngIf="myphoto !== null" color="color3">
+    
+                <ion-grid>
+    
+                    <ion-row>
+    
+                        <ion-col col-6>
+    
+                            <img [src]=myphoto alt="your image" class="ions" (click)="profile()">
+    
+                        </ion-col>
+    
+                        <ion-col col-6 class="name">
+    
+                            {{fname}} {{lname}}
+    
+                        </ion-col>
+    
+                    </ion-row>
+    
+                </ion-grid>
+    
+            </ion-toolbar>
+
+    </ion-header>
+
+    <ion-content>
+
+        <div style = "color : #3DBCC0; width:100%; height : 100%">
+            <ion-list>
+        
+            <button ion-item (click)="home()">
+
+                <ion-icon name="home" item-left></ion-icon> Home
+
+            </button>
+        
+            <button ion-item (click)="profile()">
+
+                <ion-icon name="person" item-left></ion-icon> My Profile
+
+            </button>
+        
+            <button ion-item (click)="settings()">
+
+                <ion-icon name="settings" item-left></ion-icon> Settings
+
+            </button>
+        
+            <button ion-item (click)="contact()">
+
+                <ion-icon name="chatbubbles" item-left></ion-icon> Contact Us
+
+            </button>
+        
+            <button ion-item (click)="logout()">
+
+                <ion-icon name="log-out" item-left></ion-icon> Log Out
+
+            </button>
+        
+            </ion-list>
+
+        </div>
+
+    </ion-content>
+
+</ion-menu>
+
+<ion-nav id="nav" [root]="rootPage" #content></ion-nav>

@@ -1,0 +1,116 @@
+<!--
+  Generated template for the LandingPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border no-shadow>
+
+  <ion-navbar no-border no-shadow>
+
+      <button ion-button icon-only menuToggle>
+
+    <ion-icon name="menu"></ion-icon>
+
+  </button>
+
+      <ion-buttons end>
+
+          <button ion-button icon-only>
+
+                <img src="assets/imgs/IMG-20180211-WA0002.png" alt="your image"  class="imagings"> 
+
+            </button>
+
+      </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="fuller no-scroll">
+
+    <ion-card class="error" color="color3">
+
+        <p class="n"> Welcome {{names}} </p>
+
+    </ion-card>
+
+    <ion-row  style="padding-bottom:2px; padding-top:5px;">
+
+        <ion-col col-12 no-padding>
+
+            <ion-card class="card-spacer spacer" no-padding no-border no-shadow>
+        
+                <ion-icon name="send" (click)="money()" class="sender"></ion-icon>
+    
+                <p (click)="money()" class="money">Send Money</p>
+    
+            </ion-card>
+        
+        </ion-col>
+
+    </ion-row>
+
+    <ion-row no-padding>
+
+        <ion-col col-6  no-padding style="padding-right:2px;">
+
+            <ion-card no-border no-shadow class="card-spacer spacer">
+
+                <ion-icon name="card" class="cards" (click)="card()"></ion-icon>
+
+                <p (click)="card()" class="reverse">Cards</p>
+
+            </ion-card>
+
+        </ion-col>
+
+        <ion-col col-6  no-padding>
+
+            <ion-card no-border no-shadow class="card-spacer spacer"> 
+
+                <ion-icon name="list-box" (click)="list()" class="transactions"></ion-icon>
+
+                <p (click)="list()" class="money">Transactions</p>
+
+            </ion-card>
+
+        </ion-col>
+        
+    </ion-row>
+
+    <ion-row no-padding>
+
+        <ion-col col-12 no-padding style="padding-bottom:2px; padding-top:2px;">
+
+            <ion-card class="card-spacer spacer" no-padding no-border no-shadow>
+        
+                <ion-icon name="analytics" (click)="rates()" class="rates"></ion-icon>
+    
+                <p (click)="rates()" class="money">Rates</p>
+    
+            </ion-card>
+        
+        </ion-col>
+
+    </ion-row>
+
+
+<div class="foot" no-margin no-padding>
+
+    <ion-fab bottom right>
+
+        <button ion-fab class="contact" (click)="contact()">
+
+            <ion-icon name="chatbubbles" (click)="contact()"></ion-icon>
+        
+        </button>
+
+    </ion-fab>
+
+</div>
+
+</ion-content>
+
+

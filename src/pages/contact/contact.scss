@@ -1,0 +1,63 @@
+page-contact {
+    .user_name {
+        color: #2a2a2a;
+    }
+    .alert {
+        background: rgb(55, 86, 91);
+        color: white;
+        height: 30px
+    }
+    .word {
+        text-align: justify;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        margin-left: 10px
+    }
+    .message {
+        padding: 10px !important;
+        transition: all 250ms ease-in-out !important;
+        border-radius: 10px !important;
+        margin-top: 18px !important;
+        margin-bottom: 4px !important;
+    }
+    .message--mine {
+        margin-left: 25%;
+        background: color($colors, primary) !important;
+        color: #fff !important;
+        .time {
+            right: 0;
+        }
+    }
+    .message--other {
+        background: color($colors, color3) !important;
+        color: #fff !important;
+        .time {
+            left: 0;
+        }
+    }
+    .time {
+        color: #afafaf;
+        position: absolute;
+        top: -18px;
+        font-size: small;
+    }
+    .times {
+        height: 100px
+    }
+    .message_row {
+        background-color: #fff;
+    }
+    .imag {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 200px;
+        position: initial;
+    }
+
+    .heading {
+        color: black;
+        font-size: 15px;
+        margin-top: 65px;
+        margin-right: 120px
+    }
+}

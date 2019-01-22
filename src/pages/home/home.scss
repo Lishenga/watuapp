@@ -1,0 +1,116 @@
+page-home {
+    p {
+        color: white
+    }
+
+    ion-content {
+        background-image: url('../assets/imgs/changes.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: inherit;
+        height: 100%; 
+    }
+
+    ion-footer{
+        height: 100px;
+        border:0px;
+    }
+
+    ion-button{
+        height: 70px;
+    }
+
+    .sign {
+        margin-left: 10px;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        cursor: pointer;
+        background-color: #ec407a;
+    }
+
+    .sign:click {
+        margin-left: 10px;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        cursor: pointer;
+        background-color: #ec407a;
+    }
+
+    .centering {
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        cursor: pointer;
+        margin-left: 40px;
+        background-color: #1de9b6;
+    }
+
+    .centering:click {
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        cursor: pointer;
+        margin-left: 40px;
+        background-color: #1de9b6;
+    }
+}
+
+.tears {
+    margin-top: 50px;
+}
+
+
+.heading {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 65px;
+    font-size: 25px;
+    font-family: Sans-serif;
+    color: black;
+}
+
+.page {
+    background: linear-gradient(rgb(186, 68, 22), rgb(142, 85, 62))
+}
+
+
+
+.ios,
+.md {
+    page-intro {
+        ion-slide {
+            background-color: #32db64;
+        }
+        ion-slide img {
+            height: 70vh !important;
+            width: auto !important;
+        }
+    }
+}
+
+.chatting,
+.sending,
+.plane {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: rgb(113, 173, 226);
+}
+
+.image {
+    margin-left: 10px;
+}

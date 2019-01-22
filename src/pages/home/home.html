@@ -1,0 +1,36 @@
+<ion-content>
+
+  <ion-slides pager loop="true" autoplay="true">
+
+      <ion-slide *ngFor="let slide of slides" [ngStyle]="{'background-color': slide.color}">
+
+          <img [src]="slide.image" class="slide-image" style="width: 250px" />
+
+          <p class="slide-description" [innerHTML]="slide.description"></p>
+
+      </ion-slide>
+
+  </ion-slides>
+
+</ion-content>n
+
+<ion-footer>
+
+    <ion-row>
+
+        <ion-col col-6>
+
+            <button ion-button large class="sign" (click)="sign()"> Sign In</button>
+
+        </ion-col>
+
+
+        <ion-col col-6>
+
+            <button ion-button large class="centering" (click)="create()">Create Account</button>
+
+        </ion-col>
+
+    </ion-row>
+
+</ion-footer>

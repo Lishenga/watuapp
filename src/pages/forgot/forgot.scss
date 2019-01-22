@@ -1,0 +1,61 @@
+page-forgot {
+    .heading {
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 65px;
+        margin-left: 70px;
+    }
+    .picha {
+        width: 200px;
+        position: initial; 
+        margin-left: 10px
+    }
+    .turtle {
+        font-size: 15px;
+        margin-left: 65px;
+    }
+    .malema {
+        margin-top: 40px;
+    }
+    .titler {
+        text-align: center;
+        font-size: 15px;
+        font-family: Sans-serif;
+        margin-bottom: 0px;
+        margin-top: 60px
+    }
+    .colorss {
+        color: #bbdefb;
+        margin-top: 30px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    #rounded {
+        width: 100%;
+        height: 50px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        border-color: darkgrey;
+    }
+
+    .btn {
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 80px;
+        background-color: #ec407a;
+        color: white;
+    }
+    
+    .btn:click {
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 80px;
+        background-color: #ec407a;
+        color: white;
+    }
+
+}

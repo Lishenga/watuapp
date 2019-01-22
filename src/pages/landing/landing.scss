@@ -1,0 +1,183 @@
+page-landing {
+    .ions {
+        max-width: 90%;
+        border: 0;
+        border-radius: 50%;
+        margin-top: 30px
+    }
+    .name {
+        text-align: center;
+        margin-top: 70px;
+        margin-left: -55px;
+        margin-top: 120px
+    }
+
+    .imagings {
+        margin-right: 60px;
+        width: 200px;
+        position: initial;
+        height: 160px;
+    }
+    /**#24a887**/
+    .error {
+        height: 60px;
+        width: 200%;
+        margin-left:-20px;
+        margin-bottom: 7px;
+        margin-top: -2px;
+        border: none;
+        
+    } 
+
+    .n{
+        margin-top: 21px;
+        color: White; 
+        text-align: center;
+        margin-left: -320px;
+    }
+
+    .spacer{
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-left: 0px;
+        border-right: 0px;
+        height: 110px;
+    }
+
+    .sender {
+        margin-left: 10px;
+        font-size: 55px;
+        margin-top: 20px;
+        color:#536dfe;
+    }
+
+    .rates{
+        margin-left: 10px;
+        font-size: 55px;
+        margin-top: 20px;
+        color:rgb(9, 156, 186);
+    }
+
+    .cards {
+        margin-left: 5px;
+        font-size: 55px;
+        margin-top: 20px;
+        color:  #00e676;
+    }
+
+    .transactions {
+        margin-left: 10px;
+        font-size:55px;
+        margin-top: 20px;
+        color: #d500f9;
+   
+    }
+    
+    .contact {
+        font-size: 36px;
+        color: white;
+        background-color: #01a08b;
+        margin-bottom: 50px;
+        margin-right: 20px;
+    }
+
+    .foot{
+        background-image: url('../assets/imgs/new.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: inherit;
+        margin-top:-90px;
+        height: 24%;
+        border: none;
+        margin-top: -15px;
+    }
+
+    .row{
+        margin-top: -20px;
+    }
+
+    .card-spacer {
+        margin: 10px;
+        border-radius: 0px;
+        font-weight: bold;
+        font-size: 1.4rem;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.001), 0 3px 1px -2px rgba(0, 0, 0, 0.0002), 0 1px 5px 0 rgba(0, 0, 0, 0.004);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.001), 0 3px 1px -2px rgba(0, 0, 0, 0.0002), 0 1px 5px 0 rgba(0, 0, 0, 0.004);
+    }
+
+    .card-md p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: #222;
+    }
+
+    .no-scroll .scroll-content{
+        overflow: hidden;
+      }
+}
+
+
+
+.chat {
+    margin-left: 10px;
+    font-size: 36px;
+    margin-top: 20px;
+    color: rgb(79, 2, 234);
+}
+
+.money {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.person {
+    margin-left: 5px;
+    font-size: 36px;
+    margin-top: 20px;
+    color: rgb(2, 0, 0);
+}
+
+.reverse {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.chatters {
+    margin-left: 105px;
+    margin-right: 120px;
+    font-size: 36px;
+    color: rgb(58, 58, 61);
+}
+
+.centerss {
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+.images {
+    margin-left: 200px;
+    width: 140px;
+}
+
+ion-header {
+    border: 0px;
+}
+
+.spacing {
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.scroll-content {
+    background: transparent;
+}
+
+.odd {
+    margin-right: 30px;
+}
+

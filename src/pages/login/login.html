@@ -1,0 +1,65 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding class="fuller">
+
+  <div class="ts">
+
+      <img src="assets/imgs/IMG-20180211-WA0002.png" alt="your image" class="imaging">
+
+      <form (ngSubmit)="dologin()">
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item id="rounded">
+
+                          <ion-input #input type="email" placeholder="Email Address" [(ngModel)]="loger.email" name="email">
+
+                          </ion-input>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <ion-grid>
+
+              <ion-row>
+
+                  <ion-col col-12>
+
+                      <ion-item  id="rounded">
+
+                          <ion-input #input type="password" placeholder="Password" [(ngModel)]="loger.password" name="password">
+
+                          </ion-input>
+
+                      </ion-item>
+
+                  </ion-col>
+
+              </ion-row>
+
+          </ion-grid>
+
+          <button ion-button color="secondary" full round type="submit" class="btn">login</button>
+
+      </form>
+
+      <br>
+
+      <a class="forgot" (click)="forgoter()">Forgot Password or Email Address?</a>
+ 
+  </div>
+
+</ion-content>

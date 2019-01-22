@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "368613049521",
+    "firebase_url": "https://watu-20ee5.firebaseio.com",
+    "project_id": "watu-20ee5",
+    "storage_bucket": "watu-20ee5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368613049521:android:7b298927c2d15c50",
+        "android_client_info": {
+          "package_name": "com.watu.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368613049521-squad7tgfspqlp7m718k1rhde7bhv1km.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.watu.android",
+            "certificate_hash": "b89fd19212ef4aabedc7fd67cdee800c42edf800"
+          }
+        },
+        {
+          "client_id": "368613049521-a6uo5r58c4oqkl43m8ggt4gfcopdev7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPE0YGgUeGqEYQG4Zq1j4xqnKAUa50jEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368613049521-a6uo5r58c4oqkl43m8ggt4gfcopdev7n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "368613049521-1enejd6qgbf0h96uq5ac926n7kc806so.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.watu.android"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

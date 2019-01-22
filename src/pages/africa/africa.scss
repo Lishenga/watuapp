@@ -1,0 +1,204 @@
+page-africa {
+    .heading {
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 65px;
+        margin-right: 120px
+    }
+
+    #rounder{
+        width: 100%;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        height: 30px;
+        margin-top: 0px;
+        margin-bottom: -20px
+
+    }
+
+    .searcher{
+        color: #ec407a;
+        font-size: 30px;
+        margin-top: 49px;
+    }
+
+    #rounded {
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 5px 15px;
+        box-sizing: border-box;
+        margin-right: 0px;
+    }
+
+    #roundeds {
+        width: 100%;
+        height: 30px;
+        margin-top: 40px;
+        margin-bottom: -30px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        margin-right: 0px;
+    }
+
+    .sending{
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 80px;
+        background-color: transparent;
+        color: white;
+
+    }
+
+    .btn1 {
+        width: 20%;
+        margin-top: 15px;
+        margin-left: 260px;
+        font-size: 36px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        background-color: #ec407a;
+        color: white;
+    }
+    
+    .btn1:click {
+        width: 20%;
+        margin-top: 15px;
+        font-size: 36px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        margin-left: 260px;
+        background-color: #ec407a;
+        color: white;
+    }
+
+    .btn4 {
+        width: 20%;
+        margin-top: 30px;
+        margin-left: 260px;
+        font-size: 36px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        background-color: #ec407a;
+        color: white;
+    }
+    
+    .btn4:click {
+        width: 20%;
+        margin-top: 30px;
+        font-size: 36px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        margin-left: 260px;
+        background-color: #ec407a;
+        color: white;
+    }
+
+     .btn {
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 140px;
+        background-color: #ec407a;
+        color: white;
+    }
+    
+    .btn:click {
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 140px;
+        background-color: #ec407a;
+        color: white;
+    }
+
+    .name{
+        font-size: 15px;
+        color: black;
+    }
+
+    .sendings{
+        height: 140px;
+    }
+
+    .header{
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .headerss{
+        text-align:center;
+        font-size: 15px;
+        margin-bottom: -30px;
+        font-weight: bold;
+    }
+
+    ion-grid{
+        background-color: white;
+        margin-top: 130px;
+        height: 110px;
+    }
+
+    ion-slide{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /*
+    .input-cover {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 300px;
+        height: 100%;
+        border-color: #01a08b;
+        border-style: solid;
+        border-right-color: transparent;
+        margin-left: 0px;
+        border-radius: 0px;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        border-width: 1px;
+    }
+
+    .ion-md-search:before {
+        content: "\f375";
+        border-color: #01a08b;
+        border-style: solid;
+        padding-top: 8px;
+        margin-top: -9px;
+        border-radius: 0px;
+        border-left-color: transparent;
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-left:0px;
+        border-width: 1px;
+        height: 34px;
+        width: 80px;
+    }     
+
+    */
+
+}
+
+.titler {
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Sans-serif;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.imagers {
+    margin-left: 85px;
+    width: 200px;
+    position: initial;
+}

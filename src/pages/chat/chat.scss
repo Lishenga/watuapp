@@ -1,0 +1,38 @@
+page-chat {
+    .heading {
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 65px;
+        margin-left: 40px;
+    }
+    .picha {
+        width: 200px;
+        position: initial;
+        margin-left: 30px
+    }
+
+    .buttonine {
+        width: 340px;
+        height: 65px;
+        background-color: transparent;
+        color: black;
+    }
+
+    .define{
+        margin-top:-30px;
+        size: 1px
+    }
+}
+
+.buttoning {
+    width: 290px;
+    background-color: transparent;
+    color: black;
+}
+
+.buttoning:click {
+    width: 290px;
+    background-color: #73AD21;
+    color: black;
+}
